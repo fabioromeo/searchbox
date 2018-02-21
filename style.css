@@ -29,7 +29,7 @@ i{
 }
 
 form{
-  display:none;
+    display:none;
   background:#1995cc;
   padding:20px 42px;
   text-align:center;
@@ -80,4 +80,9 @@ input::-webkit-input-placeholder {
 
 .btn-search:hover{ 
   background-color:deepskyblue;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
 }

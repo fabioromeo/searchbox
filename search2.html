@@ -1,17 +1,18 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"-->
 </head>
 
 <body>
 <!--<div class="slider" id="slider"> Magic trick </div>-->
+
+<div class="container-fluid campo">
 <form class="slider" id="slider">
-    <input type="search" class="sb" name="q" autocomplete="off" placeholder="What would you like to search for?" />
-    <button type="submit" class="sbtn fa fa-search"></button>
+    <input type="search" class="sb" name="q" autocomplete="off" placeholder="Digite aqui os termos de sua busca" />
+    <button type="submit" class="sbtn fa fa-search"></button> <!--adicionar classe "busca" para esconder o formato do botão-->
   </form>  
-
-
+</div>
 
 <button onclick="document.getElementById('slider').classList.toggle('closed');">TogglytiToggle</button>
 </body>

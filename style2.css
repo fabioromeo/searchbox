@@ -1,3 +1,8 @@
+/*search container*/
+.campo {background-color:#1995cc;}
+
+/*toggle*/
+
 .slider {
   overflow-y:hidden;
   max-height: 5em;
@@ -7,5 +12,53 @@
 }
 
 .slider.closed {
-  max-height:0;
+  max-height:0px;
+}
+
+/*Search bar*/
+input{
+  border:none;
+  padding:10px 0px;
+  background:none;
+  color:white;
+  outline:none;
+  border-bottom:1px solid white;
+  width:80%;
+  font-size:26px;
+  font-weight: 300;
+}
+
+form{
+  padding:10px;
+  text-align:center;
+  position:relative;
+  transition:background-color 500ms linear;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.3;
+}
+
+
+button.busca{
+  background:none;
+  border:none;
+}
+
+.sbtn{
+  font-size:36px;
+  color:white;
+}
+
+.btn-search{
+  background:#08f;
+  position:absolute;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  left:40px;
+  line-height:50px;
+  text-align:center;
+  color:white;
 }
